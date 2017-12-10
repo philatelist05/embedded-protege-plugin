@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse version="3.0"?>
+
+<plugin>
+    <extension id="SimpleImplementation"
+               point="org.protege.example.extension.point.custom_extension_point">
+        <class value="org.protege.example.extension.PluginImplementation"/>
+        <type value="Logger Type"/>
+    </extension>
+
+</plugin>

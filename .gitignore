@@ -1,0 +1,28 @@
+# Binary Folders #
+build/
+bin/
+out/
+target/
+
+# Eclipse Project Files #
+.project
+.classpath
+.settings/
+.externalToolBuilders/
+.metadata/
+
+#Intellij Project Files #
+.idea/
+*.iml
+
+# Binary Files #
+*.class
+
+# Package Files #
+#*.jar
+*.war
+*.ear
+
+#OSX specific temporary files
+.DS_Store
+

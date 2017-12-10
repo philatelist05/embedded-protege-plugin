@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Extension for Custom Extension Point Example
+Bundle-SymbolicName: org.protege.example.extension;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: The Protege Development Team
+Import-Package: org.apache.log4j,
+ org.apache.log4j.spi
+Require-Bundle: org.semanticweb.owl.owlapi;bundle-version="4.2.8",
+ org.protege.editor.core.application;bundle-version="5.2.0",
+ org.protege.editor.owl;bundle-version="5.2.0",
+ org.protege.example.extension.point;bundle-version="1.0.0"
